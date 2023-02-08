@@ -1,0 +1,26 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+}
+/* input,button{
+    font :inherit;
+} */
+
+/* p{
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: left;
+    text-indent: 5em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    word-spacing: 1em;
+    font-weight: 900;
+    font-style: italic;
+    font-family:serif;
+} */
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
