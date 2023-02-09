@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+
+    padding : 5% 10%;
+    font-size: 2rem;
+    font-family: "Roboto" , sans-serif;
+}
+ol{
+    list-style-type:  lower-alpha;
+    padding: 0;
+}
+ul{
+    list-style-type: square;
+    text-align: left;
+    list-style-position:outside ;
+    color: #00f;
+    line-height: 1.6;
+    /*  re url('/CSS/08_Lesson/icons8-list-view-48.png') inside; */
+
+}
+ul li :nth-child(even){
+    color:red;
+}
+
+ul li::marker{
+    color: red;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Only $5>>";
+}
+ 
